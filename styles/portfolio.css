@@ -30,6 +30,7 @@
     max-width: 827px;
     text-align: center;
     padding-bottom: 30px;
+    margin: 0 auto;
 }
 .about-continer h2{
     font-size: 35px;
@@ -146,5 +147,59 @@ nav .menu a{
 
 .about-info .about-card h4{
     font-size: 20px;
+}
+
+#skils{
+    padding-top: 130px;
+}
+#skils .skils-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+#skils-heading{
+     max-width: 827px;
+    text-align: center;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+
+#skils-heading h2{
+    padding-bottom: 30px;
+}
+
+#skils .skils-container .skils-box{
+    display: flex;
+    gap: 24px;
+}
+
+#skils .skils-container .skils-box .skil-card{
+    padding: 30px;
+    /* border: 1px solid rebeccapurple; */
+    box-shadow: 0 6px 50px 0 #00000023;
+    max-width: 267px;
+}
+
+.skil-card img{
+    max-width: 44px;
+    padding-bottom: 30px;
+}
+
+.skil-card h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #171717;
+    padding-bottom: 20px;
+}
+
+.skil-card p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#757575;
+    line-height: 28px;
+    
+    
 }
 
